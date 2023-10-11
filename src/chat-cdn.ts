@@ -1,3 +1,3 @@
-import { SparkChat } from './chat';
+import { SparkChat } from "./chat";
 
 export default SparkChat;
