@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src",
     "outDir": "dist",
     "sourceMap": false,
     "target": "ES2015",
     "module": "commonjs",
     "moduleResolution": "node",
     "allowJs": true,
+    "declaration": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
@@ -18,10 +19,10 @@
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
     "types": ["node"],
-    "rootDir": ".",
+    "rootDir": "./src",
     "noEmit": false,
     "paths": {}
   },
-  "include": ["src/**/*", ".eslintrc.js"],
+  "include": ["src/**/*"],
   "exclude": ["./node_modules"]
 }
