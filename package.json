@@ -4,7 +4,7 @@
   "description": "讯飞星火认知大模型 Nodejs SDK",
   "main": "index.js",
   "typings": "index.d.ts",
-  "repository": "git@github.com:theajack/spark-node.git",
+  "repository": "https://github.com/iyjian/spark-node.git",
   "author": "wc <wc@qq.com>",
   "scripts": {
     "lint": "eslint packages --ext ts",
